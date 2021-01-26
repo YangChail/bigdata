@@ -21,9 +21,6 @@ public class HwHdfs {
         String path = "hdfs://192.168.239.1:8020";
         path = path + "/user/hive/warehouse/autotest_in.db/data1w_txt/000000_0";
         Configuration configuration = new Configuration();
-        URI uri=new URL(path);
-
-        FileSystem fs=FileSystem.get(uri,configuration);
 
 
 

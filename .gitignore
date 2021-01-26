@@ -1,2 +1,7 @@
 /hive/target/*
 /.idea/*
+*target/*
+*.jar
+*.class
+*.zip
+*.lst
